@@ -29,7 +29,7 @@ int main() {
 		break;
 			
 		case '%':
-		cout<<ab<<endl;
+		cout<<a%b<<endl;
 		break;
 	}
 }
