@@ -1,5 +1,7 @@
 // problem link :
 // https://www.codingninjas.com/studio/problems/631055?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website&leftPanelTab=1
+// https://leetcode.com/problems/sort-colors/submissions/
+
 
 // Approch 1
 /*
