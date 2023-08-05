@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int largestRowSum(arr[][3], int i, int j) {
+int largestRowSum(int arr[][3], int i, int j) {
 
 	int maxi = INT_MIN;
 	int rowIndex = -1;
@@ -15,12 +15,15 @@ int largestRowSum(arr[][3], int i, int j) {
 			sum += arr[i][j];
 
 		}
-
+        
+        cout<< "Sum : "<<i<<" : "<<sum<< endl;
 		if(sum > maxi) {
 			sum = maxi;
 			rowIndex = i;
 		}
 	}
+	
+
 
 	return rowIndex;
 
@@ -40,6 +43,15 @@ int main() {
 
 		}
 	}
+	
+	cout << "Printing the array " << endl;
+    //print 
+    for(int row=0; row<3; row++) {
+        for(int col=0; col<3; col++) {
+            cout << arr[row][col] << " ";
+        }
+        cout << endl;
+    }
 
 	int ans = largestRowSum(arr, 3, 3);
 	cout<< ans << endl;
