@@ -27,7 +27,7 @@ int main()
     int c = 3; // col number
     int element = pascalTriangle(r, c);
     cout << "The element at position (r,c) is: "
-            << element << "n";
+            << element;
     return 0;
 }
         
