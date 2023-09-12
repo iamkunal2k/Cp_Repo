@@ -1,6 +1,5 @@
-The element pushed is 3
-The element pushed is 4
-The element poped is 3
-The element pushed is 5
-The top of the queue is 4
-The size of the queue is 2
+Top of the stack: 1
+Size of the stack before removing element: 4
+The deleted element is: 1
+Top of the stack after removing element: 4
+Size of the stack after removing element: 3
